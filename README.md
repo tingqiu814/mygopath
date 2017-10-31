@@ -1,10 +1,12 @@
 # mygopath
 安装：
+```
 # tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 # export GOROOT=/usr/local/go
 # export PATH=$PATH:$GOROOT/bin
 # mkdir /home/dev/project/gopath && cd /home/dev/project/gopath && mkdir src pkg bin
 # export GOPATH=/home/dev/project/gopath
+```
 
 go-vim install 
 .vimrc

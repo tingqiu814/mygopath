@@ -53,6 +53,7 @@ autocmd FileType nerdtree noremap <buffer> <c-l> <nop>
 
 set shiftwidth=4 softtabstop=4 expandtab "设置tab4个空格
 set ts=4
+set ff=unix
 set nu
 " set expandtab
 set history=200
@@ -159,3 +160,4 @@ filetype plugin indent on
 syntax on  " 自动语法高亮
 Bundle 'majutsushi/tagbar'
 Bundle 'vim-syntastic/syntastic'
+set backspace=indent,eol,start
